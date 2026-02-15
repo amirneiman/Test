@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova AI — Your Intelligent Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">&#9670;</span> Nova AI
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#" class="btn btn-ghost">Log In</a>
+                <a href="#cta" class="btn btn-primary">Get Started</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge">Introducing Nova AI 2.0</div>
+                <h1>Your AI assistant that <span class="gradient-text">actually understands</span> you</h1>
+                <p class="hero-description">
+                    Nova AI helps you write, analyze, and create with unprecedented accuracy.
+                    Powered by next-generation language models, it adapts to your workflow and
+                    delivers results in seconds.
+                </p>
+                <div class="hero-cta">
+                    <a href="#cta" class="btn btn-primary btn-lg">Start Free Trial</a>
+                    <a href="#how-it-works" class="btn btn-outline btn-lg">See How It Works</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">50K+</span>
+                        <span class="stat-label">Active Users</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10M+</span>
+                        <span class="stat-label">Tasks Completed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">99.9%</span>
+                        <span class="stat-label">Uptime</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="chat-window">
+                    <div class="chat-header">
+                        <div class="chat-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="chat-title">Nova AI</span>
+                    </div>
+                    <div class="chat-body">
+                        <div class="chat-message user-msg">
+                            <p>Summarize the key points from my meeting notes and create action items.</p>
+                        </div>
+                        <div class="chat-message ai-msg">
+                            <p><strong>Meeting Summary:</strong></p>
+                            <p>Here are the 3 key points and action items from your meeting:</p>
+                            <p>1. Q3 revenue target increased to $2.4M<br>
+                               2. New product launch moved to September<br>
+                               3. Hiring 5 additional engineers</p>
+                            <p><strong>Action Items:</strong> Budget revision due Friday, update project timeline, post job listings by EOD.</p>
+                        </div>
+                        <div class="chat-typing">
+                            <span class="typing-indicator">
+                                <span></span><span></span><span></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Features</div>
+                <h2>Everything you need to <span class="gradient-text">work smarter</span></h2>
+                <p>Nova AI combines powerful capabilities with an intuitive interface to supercharge your productivity.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">&#9997;</div>
+                    <h3>Smart Writing</h3>
+                    <p>Generate, edit, and refine content with context-aware suggestions. From emails to reports, Nova adapts to your tone and style.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#128202;</div>
+                    <h3>Data Analysis</h3>
+                    <p>Upload spreadsheets, PDFs, or databases and get instant insights. Nova transforms raw data into actionable intelligence.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#128483;</div>
+                    <h3>Voice Interaction</h3>
+                    <p>Speak naturally and get responses in real-time. Perfect for hands-free workflows and brainstorming sessions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#128274;</div>
+                    <h3>Enterprise Security</h3>
+                    <p>SOC 2 certified with end-to-end encryption. Your data never leaves your control and is never used for training.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#128268;</div>
+                    <h3>Integrations</h3>
+                    <p>Connect with Slack, Notion, Google Workspace, and 200+ other tools. Nova fits seamlessly into your existing workflow.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#127757;</div>
+                    <h3>Multi-Language</h3>
+                    <p>Communicate and create content in 95+ languages with native-level fluency. Break language barriers effortlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">How It Works</div>
+                <h2>Up and running in <span class="gradient-text">3 simple steps</span></h2>
+                <p>Getting started with Nova AI takes less than two minutes. No complex setup required.</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Create Your Account</h3>
+                        <p>Sign up with your email or SSO. No credit card required for the free tier. Your workspace is ready instantly.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Connect Your Tools</h3>
+                        <p>Link your favorite apps and data sources with one-click integrations. Nova automatically learns your context.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Start Collaborating</h3>
+                        <p>Ask Nova anything — write content, analyze data, automate tasks. It gets smarter with every interaction.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Pricing</div>
+                <h2>Plans that <span class="gradient-text">scale with you</span></h2>
+                <p>Start free. Upgrade when you need more power. No hidden fees, cancel anytime.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="price-amount">$0</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                        <p>Perfect for individuals getting started</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>50 messages per day</li>
+                        <li>Basic writing assistance</li>
+                        <li>5 file uploads per month</li>
+                        <li>Community support</li>
+                    </ul>
+                    <a href="#cta" class="btn btn-outline btn-block">Get Started</a>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="price-amount">$29</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                        <p>For professionals who need more power</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Unlimited messages</li>
+                        <li>Advanced writing &amp; analysis</li>
+                        <li>Unlimited file uploads</li>
+                        <li>Voice interaction</li>
+                        <li>Priority support</li>
+                        <li>API access</li>
+                    </ul>
+                    <a href="#cta" class="btn btn-primary btn-block">Start Free Trial</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="price-amount">Custom</span>
+                        </div>
+                        <p>For teams and organizations</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Everything in Pro</li>
+                        <li>SSO &amp; SAML</li>
+                        <li>Custom model fine-tuning</li>
+                        <li>Dedicated account manager</li>
+                        <li>SLA guarantee</li>
+                        <li>On-premise deployment</li>
+                    </ul>
+                    <a href="#cta" class="btn btn-outline btn-block">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Testimonials</div>
+                <h2>Loved by teams <span class="gradient-text">everywhere</span></h2>
+                <p>See what our users have to say about working with Nova AI.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"Nova AI cut our content creation time by 70%. It understands our brand voice perfectly and produces drafts that need minimal editing."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SK</div>
+                        <div>
+                            <strong>Sarah Kim</strong>
+                            <span>Head of Marketing, TechFlow</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"The data analysis capabilities are mind-blowing. I upload our quarterly reports and get insights that used to take our team days to compile."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MR</div>
+                        <div>
+                            <strong>Marcus Rivera</strong>
+                            <span>CFO, ScaleUp Inc.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"We replaced 4 separate tools with Nova AI. The integrations are seamless and the security certifications gave our compliance team peace of mind."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JL</div>
+                        <div>
+                            <strong>Jennifer Lee</strong>
+                            <span>CTO, DataBridge</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to transform the way you work?</h2>
+                <p>Join 50,000+ professionals already using Nova AI. Start your free trial today — no credit card required.</p>
+                <form class="cta-form" id="cta-form">
+                    <input type="email" placeholder="Enter your email address" required aria-label="Email address">
+                    <button type="submit" class="btn btn-primary btn-lg">Get Started Free</button>
+                </form>
+                <p class="cta-note">Free 14-day trial. No credit card required. Cancel anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">&#9670;</span> Nova AI
+                    </a>
+                    <p>Making AI accessible, powerful, and safe for everyone.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">Changelog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">GDPR</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nova AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

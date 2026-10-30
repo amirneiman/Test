@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUBSTRATE 004 — All-Night Techno</title>
+    <meta name="description" content="SUBSTRATE 004: eleven hours of techno across two rooms at the Turbine Hall. Saturday 12 December 2026.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">SUBSTRATE<span class="logo-num">004</span></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#lineup">Lineup</a></li>
+                <li><a href="#timetable">Timetable</a></li>
+                <li><a href="#venue">Venue</a></li>
+                <li><a href="#faq">Info</a></li>
+            </ul>
+            <a href="#tickets" class="btn btn-primary nav-cta">Tickets</a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <canvas class="hero-wave" id="hero-wave" aria-hidden="true"></canvas>
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="container hero-content">
+            <p class="hero-kicker"><span class="live-dot"></span>SAT 12.12.2026 &mdash; 23:00 &rarr; 10:00</p>
+            <h1 class="hero-title">
+                <span class="glitch" data-text="SUBSTRATE">SUBSTRATE</span>
+                <span class="hero-title-num">004</span>
+            </h1>
+            <p class="hero-sub">Eleven hours. Two rooms. One concrete floor.<br>A night of hypnotic, industrial and acid techno inside a decommissioned turbine hall.</p>
+
+            <div class="countdown" id="countdown" aria-label="Time until doors open">
+                <div class="cd-unit"><span class="cd-val" data-unit="days">00</span><span class="cd-label">Days</span></div>
+                <div class="cd-unit"><span class="cd-val" data-unit="hours">00</span><span class="cd-label">Hrs</span></div>
+                <div class="cd-unit"><span class="cd-val" data-unit="minutes">00</span><span class="cd-label">Min</span></div>
+                <div class="cd-unit"><span class="cd-val" data-unit="seconds">00</span><span class="cd-label">Sec</span></div>
+            </div>
+
+            <div class="hero-actions">
+                <a href="#tickets" class="btn btn-primary btn-lg">Get Tickets</a>
+                <a href="#lineup" class="btn btn-ghost btn-lg">See Lineup</a>
+            </div>
+        </div>
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee-track">
+                <span>NO PHOTOS ON THE FLOOR</span><span>&#9632;</span>
+                <span>130&ndash;145 BPM</span><span>&#9632;</span>
+                <span>FUNKTION-ONE MAIN ROOM</span><span>&#9632;</span>
+                <span>RESPECT THE DANCE</span><span>&#9632;</span>
+                <span>18+ ONLY</span><span>&#9632;</span>
+                <span>NO PHOTOS ON THE FLOOR</span><span>&#9632;</span>
+                <span>130&ndash;145 BPM</span><span>&#9632;</span>
+                <span>FUNKTION-ONE MAIN ROOM</span><span>&#9632;</span>
+                <span>RESPECT THE DANCE</span><span>&#9632;</span>
+                <span>18+ ONLY</span><span>&#9632;</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Lineup -->
+        <section class="section" id="lineup">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-index">01</span>
+                    <h2 class="section-title">Lineup</h2>
+                </div>
+
+                <div class="lineup-room">
+                    <h3 class="room-label">Hall A &mdash; Main</h3>
+                    <ul class="lineup-list">
+                        <li class="artist artist-headline">
+                            <span class="artist-name">VERA KOLT</span>
+                            <span class="artist-tag">Closing &middot; 4h set</span>
+                        </li>
+                        <li class="artist artist-headline">
+                            <span class="artist-name">MONOLITH UNIT</span>
+                            <span class="artist-tag">Live</span>
+                        </li>
+                        <li class="artist">
+                            <span class="artist-name">OKSANA DREY</span>
+                            <span class="artist-tag">Hypnotic</span>
+                        </li>
+                        <li class="artist">
+                            <span class="artist-name">FERRIC</span>
+                            <span class="artist-tag">Industrial</span>
+                        </li>
+                        <li class="artist">
+                            <span class="artist-name">LUMEN B2B HASK</span>
+                            <span class="artist-tag">Opening</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="lineup-room">
+                    <h3 class="room-label">Hall B &mdash; Acid Room</h3>
+                    <ul class="lineup-list lineup-list-small">
+                        <li class="artist">
+                            <span class="artist-name">303 CHAPEL</span>
+                            <span class="artist-tag">Live hardware</span>
+                        </li>
+                        <li class="artist">
+                            <span class="artist-name">NADIA SOLE</span>
+                            <span class="artist-tag">Acid</span>
+                        </li>
+                        <li class="artist">
+                            <span class="artist-name">GREYWIRE</span>
+                            <span class="artist-tag">Electro</span>
+                        </li>
+                        <li class="artist">
+                            <span class="artist-name">TOMAS RIEL</span>
+                            <span class="artist-tag">Resident</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timetable -->
+        <section class="section section-alt" id="timetable">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-index">02</span>
+                    <h2 class="section-title">Timetable</h2>
+                </div>
+
+                <div class="tabs" role="tablist" aria-label="Rooms">
+                    <button class="tab active" role="tab" aria-selected="true" data-room="a">Hall A</button>
+                    <button class="tab" role="tab" aria-selected="false" data-room="b">Hall B</button>
+                </div>
+
+                <ol class="timetable" data-room="a">
+                    <li><time>23:00</time><span>LUMEN B2B HASK</span></li>
+                    <li><time>01:00</time><span>FERRIC</span></li>
+                    <li><time>02:30</time><span>OKSANA DREY</span></li>
+                    <li><time>04:30</time><span>MONOLITH UNIT <em>live</em></span></li>
+                    <li class="highlight"><time>06:00</time><span>VERA KOLT</span></li>
+                    <li class="end"><time>10:00</time><span>Lights up</span></li>
+                </ol>
+                <ol class="timetable" data-room="b" hidden>
+                    <li><time>00:00</time><span>TOMAS RIEL</span></li>
+                    <li><time>02:00</time><span>GREYWIRE</span></li>
+                    <li class="highlight"><time>04:00</time><span>303 CHAPEL <em>live</em></span></li>
+                    <li><time>05:30</time><span>NADIA SOLE</span></li>
+                    <li class="end"><time>08:00</time><span>Room closes</span></li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Venue -->
+        <section class="section" id="venue">
+            <div class="container venue-grid">
+                <div>
+                    <div class="section-head">
+                        <span class="section-index">03</span>
+                        <h2 class="section-title">Venue</h2>
+                    </div>
+                    <p class="venue-name">The Turbine Hall</p>
+                    <p class="venue-text">A 1920s power station turned raw concrete cathedral. 14&nbsp;metre ceilings, a fully restored main hall and a smaller brick-walled side room. The address is sent with your ticket 48 hours before doors.</p>
+                    <dl class="venue-facts">
+                        <div><dt>Capacity</dt><dd>1,800</dd></div>
+                        <div><dt>Sound</dt><dd>Funktion-One</dd></div>
+                        <div><dt>Transit</dt><dd>Night bus N7, 4 min walk</dd></div>
+                        <div><dt>Cloakroom</dt><dd>&euro;3 per item</dd></div>
+                    </dl>
+                </div>
+                <div class="venue-visual" aria-hidden="true">
+                    <div class="venue-rings">
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="venue-coords">52.5068&deg; N<br>13.4440&deg; E</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tickets -->
+        <section class="section section-alt" id="tickets">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-index">04</span>
+                    <h2 class="section-title">Tickets</h2>
+                </div>
+
+                <div class="ticket-grid">
+                    <article class="ticket sold-out">
+                        <div class="ticket-top">
+                            <span class="ticket-tier">Tier 01</span>
+                            <span class="ticket-status">Sold out</span>
+                        </div>
+                        <p class="ticket-price">&euro;25</p>
+                        <p class="ticket-desc">Early bird. Gone in 9 minutes.</p>
+                        <button class="btn btn-ghost btn-block" disabled>Sold out</button>
+                    </article>
+                    <article class="ticket featured">
+                        <div class="ticket-top">
+                            <span class="ticket-tier">Tier 02</span>
+                            <span class="ticket-status status-live">On sale</span>
+                        </div>
+                        <p class="ticket-price">&euro;35</p>
+                        <p class="ticket-desc">General admission, both rooms, entry until 04:00.</p>
+                        <div class="ticket-bar" aria-label="78% sold"><span style="width: 78%"></span></div>
+                        <p class="ticket-meta">78% sold</p>
+                        <button class="btn btn-primary btn-block ticket-buy" data-tier="Tier 02">Buy &euro;35</button>
+                    </article>
+                    <article class="ticket">
+                        <div class="ticket-top">
+                            <span class="ticket-tier">Tier 03</span>
+                            <span class="ticket-status">Next</span>
+                        </div>
+                        <p class="ticket-price">&euro;45</p>
+                        <p class="ticket-desc">Final release. Unlocks when Tier 02 sells out.</p>
+                        <button class="btn btn-ghost btn-block" disabled>Locked</button>
+                    </article>
+                </div>
+
+                <form class="notify-form" id="notify-form">
+                    <label for="notify-email">Missed out? Get the resale alert.</label>
+                    <div class="notify-row">
+                        <input type="email" id="notify-email" placeholder="you@email.com" required>
+                        <button type="submit" class="btn btn-primary">Notify me</button>
+                    </div>
+                    <p class="notify-msg" id="notify-msg" role="status"></p>
+                </form>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section" id="faq">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-index">05</span>
+                    <h2 class="section-title">Info</h2>
+                </div>
+                <div class="faq-list">
+                    <details>
+                        <summary>Is there a door policy?</summary>
+                        <p>Yes. We are building a respectful, inclusive dancefloor. Come to dance, not to watch. Our door team has the final say.</p>
+                    </details>
+                    <details>
+                        <summary>Can I take photos?</summary>
+                        <p>Phone cameras are stickered at the door. What happens on the floor stays on the floor.</p>
+                    </details>
+                    <details>
+                        <summary>Is there re-entry?</summary>
+                        <p>One re-entry until 04:00 with your wristband. After that, once you leave, you're out.</p>
+                    </details>
+                    <details>
+                        <summary>Is the venue accessible?</summary>
+                        <p>Hall A is step-free with an accessible toilet. Hall B is reached by a ramp. Email us ahead of time and we will arrange a companion ticket and priority entry.</p>
+                    </details>
+                    <details>
+                        <summary>Are there awareness and harm-reduction services?</summary>
+                        <p>Yes. Our awareness team wears orange vests and is on site all night, plus free water stations and a quiet chill-out zone.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p class="footer-logo">SUBSTRATE</p>
+            <p class="footer-meta">A night series for the long dance &middot; &copy; 2026</p>
+            <ul class="footer-links">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">SoundCloud</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
